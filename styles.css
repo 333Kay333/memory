@@ -1,9 +1,7 @@
-.grid {
+div {
   width: 400px;
   height: 300px;
-  
   display: flex;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  flex-wrap: wrap;
+  
 }
